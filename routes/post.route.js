@@ -15,8 +15,8 @@ router
   .put(postController.editPost)
   .delete(postController.deletePost);
 
-  // router.post('/comments/:postId', commentController.addComment);
 
+// router.post('/comments/:postId', commentController.addComment);
 // router.get('/get-posts',postController.getAllPosts);
 // router.get('/get-post/:id', postController.getPost);
 // router.post('/add-post', postController.addPost);
@@ -25,11 +25,3 @@ router
 module.exports = router;
 
 
-
-/**
- * add post
- * get all posts
- * get specific post
- * edit post
- * delete post
- */

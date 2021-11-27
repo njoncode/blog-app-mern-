@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const validator = require('validator');
 
 const postSchema = new mongoose.Schema(
   {
@@ -42,7 +41,7 @@ postSchema.pre('findById', autopopulate);
 
 
 /**
- * @typedef User
+ * @typedef Post
  */
 const Post = mongoose.model('Post', postSchema);
 
