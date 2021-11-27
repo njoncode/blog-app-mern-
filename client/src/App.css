@@ -1,0 +1,10 @@
+:root {
+  --secondary: #011627;
+  --button: #f71735;
+  --button__hover: #ff9f1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
